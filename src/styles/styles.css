@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+*{
+    margin:0;
+    box-sizing:border-box
+    
+}
+
+html{
+scroll-behavior: smooth;
+}
+
+
+html,body{
+    overflow-x: hidden;
+   
+}
+
+
+
+.word .letter{
+ transform-origin:center center 65px
+}
+
+.letter.out{
+transform: rotateX(90deg);
+transition:.32s cubic-bezier(0.6,0,0.7,0.2);
+}
+
+.letter.in{
+transition:.38s ease
+}
+
+.letter.behind{
+transform:rotateX(-90deg)
+}
+
