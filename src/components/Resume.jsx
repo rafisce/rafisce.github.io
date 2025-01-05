@@ -35,8 +35,8 @@ const Resume = ({ onLoad }) => {
           />
         </Document>
         <a
-          className="absolute top-[90%] hover:cursor-pointer hover:underline hover:text-[#a2e06c] text-purple-600 font-bold text-[1.6rem]"
-          href={resume}
+           className="absolute top-[96%] hover:cursor-pointer hover:underline hover:text-[#a2e06c] text-purple-400 font-bold text-[1.2rem]"
+           href={resume}
         >
           Download Cv
         </a>
